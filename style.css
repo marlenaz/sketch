@@ -1,0 +1,40 @@
+html {
+	background-color: #d9d9d9;
+}
+
+button {
+	background-color: #ff0080;
+	color: white;
+	font-size: 16px;
+	padding: 10px 24px;
+	border-radius: 12px;
+	border-color: white;
+	border-style: dashed;
+	text-align: center;
+
+}
+
+button:hover {
+	box-shadow: 0 16px 16px 0 #b30059;
+}
+
+h1 {
+	color: #ff0080;
+}
+
+#container {
+	width: 960px;
+	height: 960px;
+	background-color: black;
+	margin: 30px auto;
+	border: 10px solid white;
+
+}
+
+.cell {
+	display: inline-block;
+	margin: 0px;
+	float: left;
+	background: black;
+	border: 1px dashed white;
+}
